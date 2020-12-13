@@ -3,8 +3,8 @@ package com.poti.anuncios.models;
 public class Administrator extends User{
     private String position;
 
-    public Administrator(String name, String whatsapp, String position) {
-        super(name, whatsapp);
+    public Administrator(String name, String whatsapp, String email, String password, String position) {
+        super(name, whatsapp, email, password);
         this.position = position;
     }
 
