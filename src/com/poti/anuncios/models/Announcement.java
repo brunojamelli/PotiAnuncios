@@ -29,4 +29,19 @@ public class Announcement {
         this.valid = valid;
         this.validateFor = validateFor;
     }
+
+    @Override
+    public String toString() {
+        return "Announcement{" +
+                "dateCreation=" + dateCreation +
+                ", dateExpiration=" + dateExpiration +
+                ", category=" + category +
+                ", advertiser=" + advertiser +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", pictures=" + pictures +
+                ", valid=" + valid +
+                ", validateFor=" + validateFor +
+                '}';
+    }
 }

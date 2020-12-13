@@ -14,4 +14,11 @@ public class Administrator extends User{
 
     public Administrator() {
     }
+
+    @Override
+    public String toString() {
+        return "Administrator{" +
+                "position='" + position + '\'' +
+                '}';
+    }
 }
